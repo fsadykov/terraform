@@ -1,3 +1,3 @@
-variable "china" {
-    default = false
+variable "china_environment" {
+    default = "false"
 }
