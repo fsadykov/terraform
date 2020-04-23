@@ -1,1 +1,1 @@
-china_environment = "false"
+china_environment = "true"

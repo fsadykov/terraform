@@ -18,10 +18,6 @@ data "template_file" "china_cluster" {
   }
 }
 
-resource "local_file" "example_local_template_values" {
-  content  = "${trimspace(data.template_file.china_cluster.rendered)}"
-  filename = "output-cluster.yaml"
-}
 
 locals {
   all_tpls = [
@@ -33,8 +29,6 @@ locals {
 locals {
   all_tpls_full = "${join("\n---\n", local.all_tpls)}"
 }
-
-
 
 resource "null_resource" "full_cluster" {
   triggers {
