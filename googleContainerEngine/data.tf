@@ -1,5 +1,5 @@
 data "google_container_engine_versions" "cluster_version" {
-  location       = "us-central1-b"
+  location       = "us-central1-a"
   version_prefix = "1.15."
   project        = "gold-order-274923"
 }
