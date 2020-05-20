@@ -11,6 +11,10 @@ variable "issuer_name" {
   }
 }
 
+
+
+
+
 variable "dns_endpoint_webplatform" {
   type = "map"
   default = {
@@ -18,6 +22,24 @@ variable "dns_endpoint_webplatform" {
     qa   = "qa.academy.fuchicorp.com"
     prod = "academy.fuchicorp.com"
   }
+}
+
+variable "instance_type" {
+  type = "map"
+  default = {
+    dev  = "t2.micro"
+    qa   = "meduim"
+    prod = "large"
+  }
+}
+
+output "instance_type_to_use" {
+  value = "${lookup(var.instance_type, "prod")}"
+}
+
+
+output "example" {
+  value = "${lookup(var.dns_endpoint_webplatform, "dev")}"
 }
 
 output "cluster_issuer" {
