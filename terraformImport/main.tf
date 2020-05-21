@@ -5,12 +5,6 @@ resource "kubernetes_namespace" "create_namespaces" {
     }
 }
 
-
-# resource "kubernetes_namespace" "example" {
-#     metadata {
-#         name      = "dev"
-#     }
-# }
 variable "namespaces" {
   type = "list"
   default = [
@@ -20,7 +14,7 @@ variable "namespaces" {
     "dev",
     "qa",
     "prod",
-    "test"
+    "test",
   ]
 }
 
