@@ -1,0 +1,84 @@
+{
+  "creationTimestamp": "2020-04-20T23:41:19Z",
+  "name": "default",
+  "resourceVersion": "142",
+  "selfLink": "/api/v1/namespaces/default",
+  "uid": "dac0d246-6086-45cb-b55e-b24f8eea485c"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "dev",
+  "resourceVersion": "7218",
+  "selfLink": "/api/v1/namespaces/dev",
+  "uid": "ddc3b920-66a9-42fd-958e-071f80f0e775"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "dev-students",
+  "resourceVersion": "7213",
+  "selfLink": "/api/v1/namespaces/dev-students",
+  "uid": "9b871319-5ade-4191-b433-a286bfc89e74"
+}
+{terr
+  "creationTimestamp": "2020-04-20T23:41:17Z",
+  "name": "kube-node-lease",
+  "resourceVersion": "33",
+  "selfLink": "/api/v1/namespaces/kube-node-lease",
+  "uid": "bf5230b6-95e6-4100-ae5a-9d9305d58919"
+}
+{
+  "creationTimestamp": "2020-04-20T23:41:17Z",
+  "name": "kube-public",
+  "resourceVersion": "27",
+  "selfLink": "/api/v1/namespaces/kube-public",
+  "uid": "6f9280ea-4034-4dc0-ada3-e298f9bd39c7"
+}
+{
+  "creationTimestamp": "2020-04-20T23:41:17Z",
+  "name": "kube-system",
+  "resourceVersion": "19",
+  "selfLink": "/api/v1/namespaces/kube-system",
+  "uid": "2adb104f-5368-45bc-a0fd-925c5ea489b5"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "prod",
+  "resourceVersion": "7215",
+  "selfLink": "/api/v1/namespaces/prod",
+  "uid": "60c88c5b-6e2b-4df8-833e-888018e77ac9"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "prod-students",
+  "resourceVersion": "7214",
+  "selfLink": "/api/v1/namespaces/prod-students",
+  "uid": "6300867b-4e89-4606-8b95-91b4914acaf4"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "qa",
+  "resourceVersion": "7217",
+  "selfLink": "/api/v1/namespaces/qa",
+  "uid": "1eb4498c-170e-405a-bbbe-9e5c4f9d5385"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "qa-students",
+  "resourceVersion": "7210",
+  "selfLink": "/api/v1/namespaces/qa-students",
+  "uid": "cfa4be59-8b11-4b61-ac63-11cda84822a6"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "test",
+  "resourceVersion": "7211",
+  "selfLink": "/api/v1/namespaces/test",
+  "uid": "284f1d68-d985-483a-8ba2-53964ce8f7d0"
+}
+{
+  "creationTimestamp": "2020-04-21T00:08:37Z",
+  "name": "tools",
+  "resourceVersion": "7212",
+  "selfLink": "/api/v1/namespaces/tools",
+  "uid": "29624015-ac05-4af7-87a2-197a7a7e3074"
+}
