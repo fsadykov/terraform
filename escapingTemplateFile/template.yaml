@@ -1,0 +1,2 @@
+admin_user: ${NODE_NAME}
+elastick_search: '${ELASTICSEARCH_HOSTS}'
