@@ -3,7 +3,7 @@ variable "mysql" {
 }
 
 variable "environment" {
-    default = "prod"
+    default = "qa"
 }
 
 output "mysql" {
