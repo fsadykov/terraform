@@ -190,7 +190,7 @@
         "for": "1m",
         "frequency": "1m",
         "handler": 1,
-        "message": "Hello from grafana.fuchicorp.com",
+        "message": "Hello from grafana.mvmamazon.com",
         "name": "Cert-manager Available Replicas alert",
         "noDataState": "alerting",
         "notifications": []

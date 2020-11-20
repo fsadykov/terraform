@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    checksum/config: |
+      apiVersion: v1
+      kind: Pod
+      metadata:
+        annotations:
+        awdawda
+        annotationswd
+        annotationswd
+        annotationsf
+        awdawdad
+        annotationswda
+        wf
+        annotationsf
+        apiVersionf
+        annotationsfd
+        fg
+
+
+        annotationsfdrg
+
+        apiVersionwf
+        annotationssgd
+        g
+        sfa
+        esg
+        drg

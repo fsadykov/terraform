@@ -15,7 +15,7 @@ data "template_file" "dashboards" {
   count     = "${length(var.grafana_dashboard_filenames)}"
   template  = "${file("grafana_dashboards/${var.grafana_dashboard_filenames[count.index]}")}"
   vars {
-    GOOGLE_DOMAIN_NAME = "fuchicorp.com"
+    GOOGLE_DOMAIN_NAME = "mvmamazon.com"
   }
 }
 
