@@ -1,0 +1,6 @@
+        Name of the helm chart: ingressgateway
+        URL of the helm chart: https://istio-release.storage.googleapis.com/charts
+        version of the helm chart: v1.16.0
+        Values of the helm chart:             kind: DaemonSet
+
+        EOD
