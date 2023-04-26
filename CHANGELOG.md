@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.0](https://github.com/fsadykov/terraform/compare/v0.3.0...v0.4.0) (2023-04-26)
+
+
+### Features
+
+* Implemenetd the terraform output ([e734ede](https://github.com/fsadykov/terraform/commit/e734ede73a000532a5462f0145893505e7d4c911))
+
+
+### Bug Fixes
+
+* Fixed the problem with data source ([da89f15](https://github.com/fsadykov/terraform/commit/da89f15a426b1c97c9c782fb940f65413fef735c))
+
 ## [0.3.0](https://github.com/fsadykov/terraform/compare/v0.2.0...v0.3.0) (2023-04-26)
 
 
