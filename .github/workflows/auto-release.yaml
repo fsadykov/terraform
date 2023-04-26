@@ -1,11 +1,6 @@
 ---
 name: "Release the application version"
 
-on:
-  push:
-    branches:
-      - "master"
-
 jobs:
   pre-release:
     name: "Release the application version"
