@@ -1,6 +1,9 @@
 ---
 name: "Release the application version"
 
+on:
+  workflow_dispatch:
+  
 jobs:
   pre-release:
     name: "Release the application version"
