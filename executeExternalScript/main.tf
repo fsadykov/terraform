@@ -5,3 +5,8 @@ data "external" "example" {
     id = "123123"
   }
 }
+
+
+output "example" {
+    value = "This is example output"
+}
