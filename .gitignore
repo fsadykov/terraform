@@ -1,3 +1,5 @@
 *state*
 *.terraform*
 *tempCodeRunnerFile.tf
+workspace
+**.DS_Store**

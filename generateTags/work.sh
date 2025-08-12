@@ -21,3 +21,9 @@ git remote -v
 # Show the git configuration
 echo "Git configuration:"
 git config --list
+
+
+
+# Get the public IP address using curl
+echo "Public IP address:"
+curl -s4 ifconfig.me

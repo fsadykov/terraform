@@ -12,9 +12,11 @@ data "external" "git_info" {
     echo '"git_commit_hash": "'$(git rev-parse HEAD)'",'
     echo '"git_remote": "'$(git remote -v | head -n 1 | awk '{print $2}')'",'
     echo '"git_branch": "'$(git branch --show-current)'",'
+    echo '"terraform_exec_host": "'$(hostname)'"',
     echo '"terraform_version": "'$terraform_version'",'
     echo '"platform": "'$platform'",'
-    echo '"terraform_outdated": "'$terraform_outdated'"'
+    echo '"terraform_outdated": "'$terraform_outdated'"',
+    echo '"public_ipv4" : "'$(curl -s4 ifconfig.me)'"'
     echo '}'
   EOF
   ]
